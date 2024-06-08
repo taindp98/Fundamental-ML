@@ -6,9 +6,9 @@ This repository contains the code and data for a mini-project on facial expressi
 - Team: group should consist of 3-4 students.
 
     |No.| Student Name    | Student ID |
-    | --------| -------- | ------- |
-    |1|||
-    |2|||
+    |:--------:|:--------:|:-------:|
+    |1|Huỳnh Long Hải|21110286|
+    |2|Nguyễn Quang Trường|21110429|
     |3|||
     |4|||
 
