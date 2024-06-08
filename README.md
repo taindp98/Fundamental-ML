@@ -34,6 +34,12 @@ This project is designed to be completed in the following steps:
     1. Prerequisite
     2. Principle Component Analysis
     3. Image Classification
+    Algo list:
+        - [ ] Decision Tree / Random Forest Classify
+        - [ ] SVM
+        - [x] XGBoost
+        - [ ] Naive Bayes
+        - [x] MLP Classifier
     4. Evaluating Classification Performance 
 
     Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
