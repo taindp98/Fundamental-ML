@@ -8,7 +8,7 @@ This repository contains the code and data for a mini-project on facial expressi
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
     |1||HI|
-    |2|||
+    |2||HI|
     |3|||
     |4|||
 
