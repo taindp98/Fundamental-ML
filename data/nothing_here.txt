@@ -1,0 +1,1 @@
+Để tạo thư mục data, cần tạo ra 1 file nằm trong thư mục đó.
