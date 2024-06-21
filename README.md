@@ -1,4 +1,4 @@
-### Trong phần này có 4 nội dung chính :
+### Trong phần này có 5 nội dung chính :
 
 I. Nhóm gồm 1 thành viên : 
     21110311 - Phạm Gia Hy
@@ -15,3 +15,8 @@ III. Nội dung liên quan đến project được đặt trong file README.pdf 
 IV. Em xin lỗi thầy vì không thể tìm được bạn bè để ghép nhóm. 
     Em không có bạn bè học chung hướng tin. 
     Em đã tự làm project này.
+
+V. Các file trong \notebook sẽ được gộp lại sau
+
+--------------------------------------------------------------------------------------------
+Em cám ơn thầy.
