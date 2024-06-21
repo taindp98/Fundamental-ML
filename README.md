@@ -7,8 +7,8 @@ This repository contains the code and data for a mini-project on facial expressi
 
     |No.| Student Name    | Student ID |
     |:--------:|:--------:|:-------:|
-    |1|Huỳnh Long Hải|21110286|
-    |2|Nguyễn Quang Trường|21110429|
+    |1|Nguyễn Quang Trường |2110429|
+    |2|Huỳnh Long Hải|21110286|
     |3|||
     |4|||
 
