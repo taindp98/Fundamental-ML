@@ -61,7 +61,7 @@ Before applying PCA, the dataset is preprocessed to ensure the data is suitable 
 
 ### ***Applying and Visualization***
 
-![PCA](materials/output-PCA-scatter.jpg)
+![PCA](./materials/output-PCA-scatter.jpg)
 
 ### ***Observations***
 - Data Spread:
