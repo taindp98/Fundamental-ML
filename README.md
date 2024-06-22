@@ -1,50 +1,29 @@
-# Mini-Project for Fundamentals of Machine Learning Course
-![background](./materials/ai_wp.jpg)
-This repository contains the code and data for a mini-project on facial expression recognition using machine learning algorithms.
+# MINI PROJECT FUNDAMENTAL ML - Nhóm 4CE
 
-## 📑 Project Policy
-- Team: group should consist of 3-4 students.
+> [!IMPORTANT]
+> In this project, we aim to classify images by first using **Principal Component Analysis (PCA)** for dimensionality reduction. PCA helps in transforming the images into a lower-dimensional space while preserving as much variance as possible. After the dimensionality reduction, we will classify the images using a Machine Learning Model, specifically a **Multi-Layer Perceptron (MLP)**. Additionally, we plan to explore **Convolutional Neural Networks (CNN), Histogram of Oriented Gradients (HOG)** as further work.
 
-    |No.| Student Name    | Student ID |
-    | --------| -------- | ------- |
-    |1| Bui Quang Thang | 21280048 |
-    |2| Nguyen Thuy Vy | 21280120 | 
-    |3| Le Vo Bao Tram | 21280052 |
-    |4| Huynh Thi Thu Thoang | 21280074 |
+> [!NOTE]
+> You can go to the url https://thangbuiq.github.io/NMMH-4CE for easily view of this file.
 
-- The submission deadline is strict: **11:59 PM** on **June 22nd, 2024**. Commits pushed after this deadline will not be considered.
+## Team Members
 
-## 📦 Project Structure
+| Name               | Student ID | Responsibilities                                                                                   |
+|--------------------|------------|----------------------------------------------------------------------------------------------------|
+| Bui Quang Thang    | 21280048   | Leader, ensure timely completion, integrating all parts of the project and compiling the final report |
+| Le Vo Bao Tram     | 21280052   | Handle EDA for each label, apply XgBoost, MLP, and Naive Bayes classification                     |
+| Huynh Thi Thu Thoang | 21280074  | Apply Random Forest, MLP classification, and compare before and after PCA performance              |
+| Nguyen Thuy Vy     | 21280120   | GridSearchCV to DecisionTree as e.g, implement model pipeline and handle SVM classification        |
+
+## Methodology tl;dr
+
+- Feature Engineering: PCA to reduce the dimensionality while preserving variance (95% cut-off)
+- Core ML Algos: Multi-Layer Perceptron (MLP), Random Forest, XgBoost, Naive,... and PCA comparison
+- Further work: Convolutional Neural Networks (CNN) for improved classification accuracy
+
+## Project Structure
 
 The repository is organized into the following directories:
 
-- **/data**: This directory contains the facial expression dataset. You'll need to download the dataset and place it here before running the notebooks. (Download link provided below)
+- **/data**: This directory contains the facial expression dataset. You'll need to download the dataset and place it here before running the notebooks.
 - **/notebooks**: This directory contains the Jupyter notebook ```EDA.ipynb```. This notebook guides you through exploratory data analysis (EDA) and classification tasks.
-
-## ⚙️ Usage
-
-This project is designed to be completed in the following steps:
-
-1. **Fork the Project**: Click on the ```Fork``` button on the top right corner of this repository, this will create a copy of the repository in your own GitHub account. Complete the table at the top by entering your team member names.
-
-2. **Download the Dataset**: Download the facial expression dataset from the following [link](https://mega.nz/file/foM2wDaa#GPGyspdUB2WV-fATL-ZvYj3i4FqgbVKyct413gxg3rE) and place it in the **/data** directory:
-
-3. **Complete the Tasks**: Open the ```notebooks/EDA.ipynb``` notebook in your Jupyter Notebook environment. The notebook is designed to guide you through various tasks, including:
-    
-    1. Prerequisite
-    2. Principle Component Analysis
-    3. Image Classification
-    Algo list:
-        - [ ] Decision Tree / Random Forest Classify
-        - [ ] SVM
-        - [x] XGBoost
-        - [ ] Naive Bayes
-        - [x] MLP Classifier
-    4. Evaluating Classification Performance 
-
-    Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
-
-5. **Commit and Push Your Changes**: Once you've completed the tasks outlined in the notebook, commit your changes to your local repository and push them to your forked repository on GitHub.
-
-
-Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
