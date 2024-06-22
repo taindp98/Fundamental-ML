@@ -9,7 +9,7 @@ II. Một số vấn đề liên quan đến Github :
 ![background](./materials/Screenshot3751.png)
 
 
-III. Nội dung liên quan đến project được đặt trong file README.pdf bên cạnh file này.
+III. Nội dung liên quan đến project được đặt trong file readme.pdf bên cạnh file này.
 
 
 IV. Em xin lỗi thầy vì không thể tìm được bạn bè để ghép nhóm. 
