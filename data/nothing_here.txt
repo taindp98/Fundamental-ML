@@ -1,1 +1,2 @@
-Để tạo thư mục data, cần tạo ra 1 file nằm trong thư mục đó.
+Link để access vào data : 
+https://drive.google.com/file/d/1jicbY0DtQIFfklcgmd9nh77Src0pgXNS/view?usp=drive_link
