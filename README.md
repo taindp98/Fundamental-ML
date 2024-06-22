@@ -45,7 +45,31 @@ Feel free to modify and extend the notebook to explore further aspects of the da
 # **Comprehensive Analysis of PCA and its Application in Facial Expression Recognition**
 # **Team Report and Interesting Findings**
 
-## **Practical Implementation of PCA**
+## **I. Theoretical Foundations of PCA**
+
+Principal Component Analysis (PCA) is a statistical technique used to identify patterns in data by transforming it into a set of orthogonal (uncorrelated) components, ordered by the amount of variance they capture. The primary objectives of PCA are to reduce the dimensionality of the data while retaining most of the variability and to identify the directions (principal components) along which the data varies the most.
+
+### ***Mathematical Formulation***
+Given a dataset $X$ with $n$ samples and $p$ features, PCA involves the following steps:
+
+1. Standardization
+    - Center the data by subtracting the mean of each feature.
+    - Optionally, scale the data to unit variance.
+
+2. Covariance Matrix Calculation
+    - Compute the covariance matrix $C$:
+    $$ C = \frac{1}{n-1} X^T X $$
+
+3. Eigenvalue Decomposition
+    - Compute the eigenvalues and eigenvectors of the covariance matrix. The eigenvectors represent the principal components, and the eigenvalues indicate the amount of variance captured by each principal component.
+
+4. Projection
+    - Project the data onto the principal components to obtain the transformed dataset.
+
+
+
+
+## **II. Practical Implementation of PCA**
 
 ### ***Preprocessing Steps***
 Before applying PCA, the dataset is preprocessed to ensure the data is suitable for analysis. This includes:
@@ -61,7 +85,7 @@ Before applying PCA, the dataset is preprocessed to ensure the data is suitable 
 
 ### ***Applying and Visualization***
 
-![PCA](./materials/output-PCA-scatter.jpg)
+![PCA](./materials/output-PCA-scatter.png)
 
 ### ***Observations***
 - Data Spread:
@@ -96,3 +120,68 @@ The PCA scatter plot shows that the first two principal components capture a sub
 
 - Feature Importance:
     - Understanding which features contribute to the principal components can provide insights into what aspects of facial expressions are most significant. For example, features like the curvature of the mouth or the position of eyebrows might be critical in differentiating emotions.
+
+## **III. Optimization Techniques in PCA**
+
+### ***Choosing the Number of Components***
+Selecting the optimal number of principal components is crucial for balancing dimensionality reduction and information retention. This can be achieved by:
+
+1. Scree Plot Analysis:
+- A scree plot displays the eigenvalues associated with each principal component. The point where the plot shows an "elbow" indicates the optimal number of components.
+
+2. Cumulative Explained Variance:
+- By plotting the cumulative explained variance as a function of the number of components, we can select the number of components that explain a desired amount of total variance (e.g., 95%).
+
+Example: Scree Plot and Cumulative Explained Variance
+
+![Scree Plot](./materials/output-scree.png)
+
+## **IV. Comparative Analysis with Other Techniques**
+
+### ***t-SNE***
+- t-Distributed Stochastic Neighbor Embedding (t-SNE) is a non-linear dimensionality reduction technique particularly well-suited for visualizing high-dimensional data.
+![t-SNE Plot](./materials/output-tSNE.png)
+
+### ***LDA***
+- Linear Discriminant Analysis (LDA) is a supervised dimensionality reduction technique that aims to maximize class separability.
+![LDA Plot](./materials/output-LDA.png)
+
+### ***Advantages and Disadvantages of Each Method***
+1. PCA
+- Advantages:
+    - Linear method, simple to implement.
+    - Captures the most variance in the data.
+- Disadvantages:
+    - Assumes linear relationships.
+    - Not effective for capturing non-linear structures.
+2. t-SNE
+- Advantages:
+    - Excellent for visualizing high-dimensional data.
+    - Captures complex non-linear relationships.
+- Disadvantages:
+    - Computationally expensive.
+    - Parameters (e.g., perplexity) need fine-tuning.
+3. LDA
+- Advantages:
+    - Maximizes class separability.
+    - Effective for supervised dimensionality reduction.
+- Disadvantages:
+    - Requires labeled data.
+    - Assumes normally distributed classes with identical covariances.
+
+## **V. Practical Applications**
+### ***Use Cases in Facial Expression Recognition***
+- Emotion Detection: Recognizing and classifying emotions in real-time applications like virtual assistants, social robots, and security systems.
+- Mental Health Monitoring: Analyzing facial expressions to assess emotional well-being and detect signs of mental health issues.
+
+### ***Other Applications in Image and Data Analysis***
+- Image Compression: Reducing the dimensionality of image data for efficient storage and transmission.
+- Pattern Recognition: Enhancing the performance of algorithms in tasks like object detection, handwriting recognition, and bioinformatics.
+
+## **VI. Conclusion**
+This report provides a comprehensive analysis of PCA and its application in facial expression recognition, highlighting its theoretical foundations, practical implementation, and optimization techniques. We also compared PCA with other dimensionality reduction methods, emphasizing their strengths and limitations. PCA proves to be a powerful tool for reducing dimensionality while retaining essential information, facilitating effective data visualization and classification. Future work could explore combining PCA with other techniques to further enhance performance in complex tasks.
+
+## **VII. References**
+1. **Jolliffe, I. T., & Cadima, J.** (2016). Principal component analysis: A review and recent developments. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences*, 374(2065), 20150202.
+2. **Van der Maaten, L., & Hinton, G.** (2008). Visualizing data using t-SNE. *Journal of Machine Learning Research*, 9(Nov), 2579-2605.
+3. **Fisher, R. A.** (1936). The use of multiple measurements in taxonomic problems. *Annals of Eugenics*, 7(2), 179-188.
