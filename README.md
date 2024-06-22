@@ -1,7 +1,7 @@
-### ( Sửa đổi lần cuối lúc 19h34 ngày 22/06/2024 )
+### ( Sửa đổi lần cuối lúc 19h35 ngày 22/06/2024 )
 
 
-# Trong phần này có 5 nội dung chính :
+# Trong phần này có 4 nội dung chính :
 
 I. Nhóm gồm 1 thành viên : 
     21110311 - Phạm Gia Hy
