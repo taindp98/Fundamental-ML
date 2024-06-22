@@ -16,7 +16,6 @@ IV. Em xin lỗi thầy vì không thể tìm được bạn bè để ghép nh�
     Em không có bạn bè học chung hướng tin. 
     Em đã tự làm project này.
 
-V. Các file trong \notebook sẽ được gộp lại sau
 
 --------------------------------------------------------------------------------------------
 Em cám ơn thầy.
