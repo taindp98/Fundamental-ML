@@ -69,10 +69,14 @@ b. Data Augmentation
 4. Model (Machine Learning) đạt được hiệu suất cao nhất trên tập dữ liệu gốc :
 RandomForestClassifier() : 45.4%
 Điểm chung giữa các model khi áp dụng vào data này: Class 5 lúc nào cũng đạt hiệu suất tốt nhất
+
 • Class đạt hiệu suất tốt nhất : Class 5
+
 • Class 0 và Class 4 luôn đạt hiệu suất thấp nhất
+
 • Class 1 tuy có rất ít dữ liệu so với các Class còn lại, nhưng hiệu suất vẫn ổn định khi cho train
 đủ lâu
+
 • Precision cao nhất cũng là của class 5 (dùng RandomForestClassifier())
 (với tập dữ liệu đã qua xử lý PCA) : 79%
 
