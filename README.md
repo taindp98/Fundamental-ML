@@ -7,7 +7,7 @@ This repository contains the code and data for a mini-project on facial expressi
 
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
-    |1|||
+    |1|Phạm Gia Hy|21110311|
     |2|||
     |3|||
     |4|||
