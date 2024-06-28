@@ -60,13 +60,13 @@ d. Multi-layer Perceptron
 
 e. Convolutional Neural Network
 
-4. Các kỹ thuật đã được áp dụng trong thí nghiệm này :
+3. Các kỹ thuật đã được áp dụng trong thí nghiệm này :
    
 a. PCA
 
 b. Data Augmentation
 
-6. Model (Machine Learning) đạt được hiệu suất cao nhất trên tập dữ liệu gốc :
+4. Model (Machine Learning) đạt được hiệu suất cao nhất trên tập dữ liệu gốc :
 RandomForestClassifier() : 45.4%
 Điểm chung giữa các model khi áp dụng vào data này: Class 5 lúc nào cũng đạt hiệu suất tốt nhất
 • Class đạt hiệu suất tốt nhất : Class 5
@@ -75,4 +75,5 @@ RandomForestClassifier() : 45.4%
 đủ lâu
 • Precision cao nhất cũng là của class 5 (dùng RandomForestClassifier())
 (với tập dữ liệu đã qua xử lý PCA) : 79%
-7. Model (Deep Learning) CNN đạt hiệu suất 52% (metric: accuracy)
+
+6. Model (Deep Learning) CNN đạt hiệu suất 52% (metric: accuracy)
